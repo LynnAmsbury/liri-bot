@@ -1,25 +1,25 @@
-#liri-bot
+# liri-bot
 
-##Overview:
+## Overview:
 
 Liri-bot is a command line interface (CLI) app created in Node.js that takes in user input (performersnode, songs, and movie titles) as parameters and returns information about each of those inputs.
 
-##How to Install:
+## How to Install:
 Open terminal or git bash and clone the repository to the directory of your choice.
 Enter ` npm install ` or ` npm i ` to install the node packages needed to run the app (axios, dotenv, moment, node-spotify-api).
 **Note:** A local .env file containing the Spotify API id and secret will be needed. A Spotify id and secret can be obtained [here](https://developer.spotify.com/).
 
-##Specifications:
+## Specifications:
 
-###Liri-bot takes in the following commands:
+### liri-bot takes in the following commands:
 concert-this
 spotify-this-song
 movie-this
 do-what-it-says
 
-##What Each Command Does:
+## What Each Command Does:
 
-###concert-this:
+### concert-this:
 Type ` node liri.js concert-this <artist/band name> ` into the command line.
 
 ![liri-bot concert-this request](images/concert-this-request.png)
@@ -29,7 +29,7 @@ Name of the venue
 Venue location
 Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-###spotify-this-song:
+### spotify-this-song:
 Type ` node liri.js spotify-this-song <song name> ` into the command line.
 
 ![liri-bot spotify-this-song request](images/spotify-this-song.png)
@@ -42,7 +42,7 @@ The album that the song is from
 
 If no song name is provided then the program will default to "The Sign."
 
-###movie-this:
+### movie-this:
 Type ` node liri.js movie-this <movie name> ` into the command line.
 
 ![liri-bot movie-this request](images/movie-this-request.png)
@@ -60,7 +60,7 @@ Actors in the movie
 
 If the user doesn't type a movie name in, the program will output data for the movie 'Mr. Nobody.'
 
-###do-what-it-says:
+### do-what-it-says:
 Type ` node liri.js do-what-it-says ` into the command line.
 
 ![liri-bot do-what-it-says request](images/do-what-it-says-request.png)
