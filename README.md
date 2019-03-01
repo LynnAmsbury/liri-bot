@@ -7,7 +7,7 @@ Liri-bot is a command line interface (CLI) app created in Node.js that takes in 
 ## How to Install:
 Open terminal or git bash and clone the repository to the directory of your choice.
 Enter ` npm install ` or ` npm i ` to install the node packages needed to run the app (axios, dotenv, moment, node-spotify-api).
-**Note:** A local .env file containing the Spotify API id and secret will be needed. A Spotify id and secret can be obtained [here](https://developer.spotify.com/).
+**Note:** A local .env file containing the Spotify API ID and secret will be needed. A Spotify ID and secret can be obtained [here](https://developer.spotify.com/).
 
 ## Specifications:
 
@@ -71,7 +71,7 @@ Type ` node liri.js do-what-it-says ` into the command line.
 
 ![liri-bot do-what-it-says request](images/do-what-it-says-request.png)
 
-Using the fs Node package, LIRI will take the text inside of the text file named random.txt and then use it to call one of LIRI's commands.
+Using the fs Node package, liri-bot will take the text inside of the text file named random.txt and then use it to call one of liri-bot's commands.
 
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
