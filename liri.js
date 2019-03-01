@@ -108,7 +108,7 @@ var doWhatItSays = function () {
         action = dataArr[0];
         title = dataArr[1];
         router(action, title);
-    })
+    });
 };
 
 // Switch statement to route requests
