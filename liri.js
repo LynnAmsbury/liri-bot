@@ -45,15 +45,10 @@ var concertThis = function (artist) {
 
 // Spotify-this-song
 var spotifyThis = function (songName) {
-    // console.log("songName param:" , songName)
-    // console.log("if conditional", songName === undefined)
     if (songName === "") {
         songName = "The Sign";
       }
 	  console.log("songName default:" , songName)
-    // if (songName === undefined) {
-    //     songName = "The Sign";
-    //   }
       if (songName === undefined) {
         songName = "The Sign";
       }
